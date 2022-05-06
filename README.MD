@@ -14,7 +14,7 @@
 
 * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi);
 * [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
-  ***у процесі написання...***
+***у процесі написання...***
 
 А також знання  та вміння володіти з наступними прогамами та ресурсами:
 
@@ -22,8 +22,8 @@
 * [Node-Red](https://uk.wikipedia.org/wiki/Node-RED);
 * [Бази даних](https://uk.wikipedia.org/wiki/База_даних) та мова [SQL](https://uk.wikipedia.org/wiki/SQL);
 * Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
-* Мова програмування [Java Script] (https://uk.wikipedia.org/wiki/JavaScript);
- ***у процесі написання...***
+* Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
+***у процесі написання...***
 
  ### Вимоги до проєкту:
 ***у процесі написання...***
@@ -37,11 +37,7 @@
 #### Етап№1 "Робота з Github"
 1. - [x] Створити та оформити README.MD;
 2. - [x] Створити репозиторій;
-<<<<<<< HEAD
 2. - [x] Дотати всіх  учасників до репозиторію;
-=======
-2. - [ ] Дотати всіх  учасників до репозиторію;
->>>>>>> 039a43fc3723315812d4b67ed016354b053d25cf
 4. - [x] Створити Issue;
 5. - [ ] Кожен учасник ознайомився з Git;
 6. - [ ] Кожен учасник проєкту створив власну гілку;
