@@ -22,7 +22,9 @@
 * [Node-Red](https://uk.wikipedia.org/wiki/Node-RED);
 * [Бази даних](https://uk.wikipedia.org/wiki/База_даних) та мова [SQL](https://uk.wikipedia.org/wiki/SQL);
 * Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
- ***у процесі написання...***
+* * Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
+***у процесі написання...***
+ 
 
  ### Вимоги до проєкту:
 ***у процесі написання...***
