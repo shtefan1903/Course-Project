@@ -14,7 +14,7 @@
 
 * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi);
 * [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
-  ***у процесі написання...***
+***у процесі написання...***
 
 А також знання  та вміння володіти з наступними прогамами та ресурсами:
 
@@ -22,15 +22,8 @@
 * [Node-Red](https://uk.wikipedia.org/wiki/Node-RED);
 * [Бази даних](https://uk.wikipedia.org/wiki/База_даних) та мова [SQL](https://uk.wikipedia.org/wiki/SQL);
 * Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
-<<<<<<< HEAD
 * Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
 ***у процесі написання...***
-
-=======
-* * Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
-***у процесі написання...***
- 
->>>>>>> 392a43277f01bbfe88a77bc0c94d69f765a9f6be
 
  ### Вимоги до проєкту:
 ***у процесі написання...***
@@ -51,6 +44,8 @@
 
 #### Етап№2 "Робота з Node-Red"
 1. Створити проєкт в Node-Red та зашифрувати його;
+***у процесі написання...***
 
 #### Етап№3
 ***у процесі написання...***
+
