@@ -7,7 +7,7 @@
 #### Кострикін Олесандр, Пекарчук Катерина, Попчук Дмитро та Штефан Ілля (Team Lead) 
 
 
-  ![](D:\Repositories\Main-Team`s-Project\img\sheme.jpg)
+  ![](img/sheme.jpg)
 
 
 ### Загальна інформація  про проєкт:
