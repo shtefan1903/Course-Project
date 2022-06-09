@@ -27,10 +27,10 @@
   <img src="/img/project-sheme.jpg" />
 </kbd>
 
-### <center> Вимоги до видів забезпечення.</center>
+### <center> Вимоги до видів забезпечення:</center>
 
 #### <center>Вимоги до апартного забезпечення:</center>
-> * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi);
+> * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi) (RPi3 або RPi4);
 > * [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
 > 
 
