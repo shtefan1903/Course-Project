@@ -8,6 +8,8 @@
 ### <center>Загальна інформація  про проєкт:</center>
 > Система "**Дистанційний контроль температури людей в приміщенні**" повинна забезпечувати дистанційне вимірювання температури людей в приміщенні з веденням журналу та формуванням повідомлень. 
 >
+
+ ### <center>Вимоги до проєкту:</center>
 > Система повинна передбачати виконання наступних функцій:
 >
 > 1. Система повинна вимірювати температури людини (**у ℃**)  на відстанні (**min 20см, max - 40см**):
@@ -25,26 +27,26 @@
   <img src="/img/project-sheme.jpg" />
 </kbd>
 
-* Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi);
-* [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
+### <center>Вимоги до апартного забезпечення:</center>
+> * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi);
+> * [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
+> 
+
 ***у процесі написання...***
 
-А також знання  та вміння володіти з наступними прогамами та ресурсами:
+### <center>Вимоги до програмного забезпечення:</center>
+> * [GitHub](https://github.com);
+> *  [Node-Red](https://uk.wikipedia.org/wiki/Node-RED);
+> *  [Бази даних](https://uk.wikipedia.org/wiki/База_даних) та мова [SQL](https://uk.wikipedia.org/wiki/SQL);
+> *  Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
+> *  Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
+> *  Программа [Fritzing](https://uk.wikipedia.org/wiki/Fritzing)(для побудови схем);
+> 
 
-* [GitHub](https://github.com);
-* [Node-Red](https://uk.wikipedia.org/wiki/Node-RED);
-* [Бази даних](https://uk.wikipedia.org/wiki/База_даних) та мова [SQL](https://uk.wikipedia.org/wiki/SQL);
-* Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
-* Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
-* Программа [Fritzing](https://uk.wikipedia.org/wiki/Fritzing)(для побудови схем);
-
- ### Вимоги до проєкту:
 ***у процесі написання...***
 
-### Загальний опис усіх компонентів :
-***у процесі написання...***
 
-### План роботи:
+## План роботи:
 #### Етап№0 "Початок"
 1.  - [x] Вибрати тему проєкту;
 2.  - [x] Обрати спосіб виконання роботи;
