@@ -31,7 +31,7 @@
 
 #### <center>Вимоги до апартного забезпечення:</center>
 > * Мікрокомп'ютер [Raspberry Pi](https://uk.wikipedia.org/wiki/Raspberry_Pi) (RPi3 або RPi4);
-> * [Пірометричний датчик температури](https://arduino.ua/prod1293-pirometr-infrakrasnii-beskontaktnii-wh320);
+> * Пірометричний датчик температури [MLX90614](https://arduino.ua/prod1431-modyl-beskontaktnogo-termmetra-mlx90614);
 > 
 
 ***у процесі написання...***
