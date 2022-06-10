@@ -1,2 +1,0 @@
-# Course-Project
-## SHTEFAN-BRANCH
