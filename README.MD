@@ -52,24 +52,21 @@
 <kbd>
   <img src="/img/Technical structure of the system.jpg" />
 </kbd>
-
-рис.1
+**рис.1**
 
 ####  Принципова схема підключення:
 
 <kbd>
   <img src="/img/scheme-test_схема.jpg" />
 </kbd>
-
-рис.2
+**рис.2**
 
 ####  Монтажна схема підключення:
 
 <kbd>
   <img src="/img/scheme-test_МП.jpg" />
 </kbd>
-
-рис.3
+**рис.3**
 
 ### Відомість апаратних та програмних засобів:
 
