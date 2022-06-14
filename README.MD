@@ -80,7 +80,7 @@
 |      Raspberry Pi (3/4)       | [Raspberry Pi](https://raspberrypi.in.ua/product-category/catalog/mini-kompyutery/minikompyutery-raspberry-pi/) |     1     | У комплекті з корпусом, блоком живлення та картою пам'яті. |
 |       Макетна плата 830       | [ MB-102 830](https://arduino.ua/prod361-maketnaya-plata-mb-102-830-otverstii) |     1     |                                                            |
 | Пірометричний датчик MLX90614 | [MLX90614](https://arduino.ua/prod1431-modyl-beskontaktnogo-termmetra-mlx90614) |     1     |                                                            |
-|     Світлодіод(GREEN+RED)     |                              -                               |     2     |                                                            |
+|     Світлодіод(GREEN+RED)     |                              -                               |     2     |    1 - зелений, червоний.                                                          |
 |       Резистор (1 кОм)        |                              -                               |     2     |                                                            |
 |   Провід dupont (мама-тато)   |                              -                               |     8     |    3 - червоні; 2 - чорні; 1 - жовтий, синій, зелений.     |
 
