@@ -1,0 +1,1948 @@
+[
+    {
+        "id": "83183731aed17ad4",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3c0b8922.7fce4e",
+        "type": "tab",
+        "label": "IO",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "ff6925ad.bbbba",
+        "type": "tab",
+        "label": "process",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "44831066.7d4808",
+        "type": "tab",
+        "label": "UI",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "584ed2b7.9bb7e4",
+        "type": "tab",
+        "label": "History",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "89489b8b.1930a",
+        "type": "tab",
+        "label": "Alarm",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "b4641e24.5cdcd",
+        "type": "tab",
+        "label": "Bot",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "eb61555a.24bb08",
+        "type": "tab",
+        "label": "Report",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "fc94e9ca04d68f22",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "https://test.mosquitto.org",
+        "port": "1883",
+        "clientid": "shtefanilya2",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "shtefanilya1/client1status",
+        "birthQos": "1",
+        "birthRetain": "true",
+        "birthPayload": "online",
+        "birthMsg": {},
+        "closeTopic": "shtefanilya1/client1/status",
+        "closeQos": "1",
+        "closeRetain": "true",
+        "closePayload": "offline",
+        "closeMsg": {},
+        "willTopic": "shtefanilya1/client1/status",
+        "willQos": "1",
+        "willRetain": "true",
+        "willPayload": "offline (break)",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "b2fca3636c0059bf",
+        "type": "ui_group",
+        "name": "Shtefan Ilya",
+        "tab": "274b3eb430a8e00d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5853efbb69ad8233",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "12e3a85b60770c34",
+        "type": "ui_tab",
+        "name": "Shtefan Ilya",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "2ad1b6795085a545",
+        "type": "ui_group",
+        "name": "MQTT",
+        "tab": "12e3a85b60770c34",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "24e3148cbf13f96a",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "https://test.mosquitto.org",
+        "port": "1883",
+        "clientid": "shtefanilya/Client2",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": false,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "737d63d20605dd49",
+        "type": "websocket-client",
+        "d": true,
+        "path": "ws://shtefanil.fred.sensetecnic.com/api/ui/",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0"
+    },
+    {
+        "id": "d110772659818311",
+        "type": "websocket-client",
+        "path": "ws://shtefanil.fred.sensetecnic.com/api/ui/",
+        "tls": "",
+        "wholemsg": "false",
+        "hb": "0"
+    },
+    {
+        "id": "bf975621a5f27fbc",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "mysql",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "274b3eb430a8e00d",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "bc7272abcf691b0b",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "devinfo",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "c0ea8bb9dcb45fcc",
+        "type": "gauth",
+        "name": "rpi-service-account@continual-voice-351510.iam.gserviceaccount.com"
+    },
+    {
+        "id": "bbbd06266f013cab",
+        "type": "telegram bot",
+        "botname": "t.me/RPI3_Shtefan_Ilya_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "5761ada354cce92d",
+        "type": "ui_group",
+        "name": "Shtefan",
+        "tab": "f1249366a2ebeee4",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f1249366a2ebeee4",
+        "type": "ui_tab",
+        "name": "Shtefan Ilya",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "8073b07a.c5eaf",
+        "type": "ui_group",
+        "name": "планування: старт",
+        "tab": "8e131842.3edc18",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "a0566308.93d1a",
+        "type": "ui_group",
+        "name": "Планування: завершення",
+        "tab": "8e131842.3edc18",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "8e131842.3edc18",
+        "type": "ui_tab",
+        "name": "Sheduler",
+        "icon": "dashboard"
+    },
+    {
+        "id": "11d75da2.c15f92",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9350df16.bb9cf8",
+        "type": "ui_tab",
+        "name": "IO",
+        "icon": "dashboard",
+        "order": 1
+    },
+    {
+        "id": "c2b4ae34.510e28",
+        "type": "ui_group",
+        "name": "Реальні",
+        "tab": "9350df16.bb9cf8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "f20b64d2.865b4",
+        "type": "ui_tab",
+        "name": "Tab 2",
+        "icon": "dashboard",
+        "order": 2
+    },
+    {
+        "id": "3573dccb.8137dc",
+        "type": "ui_group",
+        "name": "Імітація",
+        "tab": "9350df16.bb9cf8",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "3991fb92.54515c",
+        "type": "ui_tab",
+        "name": "Tab 3",
+        "icon": "dashboard",
+        "order": 3
+    },
+    {
+        "id": "a954a5a4.30bac",
+        "type": "ui_group",
+        "name": "Тренди",
+        "tab": "9350df16.bb9cf8",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "948ebe51.e052b",
+        "type": "gauth"
+    },
+    {
+        "id": "44204c1.e3636b4",
+        "type": "MySQLdatabase",
+        "name": "",
+        "host": "127.0.0.1",
+        "port": "3306",
+        "db": "mysql",
+        "tz": ""
+    },
+    {
+        "id": "92f9414c.b4e87",
+        "type": "telegram bot",
+        "botname": "t.me/RPI_OherMan_Bot",
+        "usernames": "",
+        "chatids": "704574699",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "409c1ce6.58af64",
+        "type": "inject",
+        "z": "3c0b8922.7fce4e",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "iopulse",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 120,
+        "wires": [
+            [
+                "1575658.4d4c91b"
+            ]
+        ]
+    },
+    {
+        "id": "1575658.4d4c91b",
+        "type": "link out",
+        "z": "3c0b8922.7fce4e",
+        "name": "",
+        "links": [
+            "8b23ec2b.f987a"
+        ],
+        "x": 675,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "419feefe.89ea4",
+        "type": "link in",
+        "z": "3c0b8922.7fce4e",
+        "name": "",
+        "links": [
+            "aa3d0163.1c7e78"
+        ],
+        "x": 195,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8b23ec2b.f987a",
+        "type": "link in",
+        "z": "ff6925ad.bbbba",
+        "name": "IN",
+        "links": [
+            "1575658.4d4c91b"
+        ],
+        "x": 90,
+        "y": 180,
+        "wires": [
+            [
+                "b557397b.d3453"
+            ]
+        ],
+        "l": true
+    },
+    {
+        "id": "7effa1b3.6186",
+        "type": "inject",
+        "z": "ff6925ad.bbbba",
+        "name": "",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "simpulse",
+        "payload": "",
+        "payloadType": "date",
+        "x": 115,
+        "y": 220,
+        "wires": [
+            [
+                "b557397b.d3453"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b557397b.d3453",
+        "type": "function",
+        "z": "ff6925ad.bbbba",
+        "name": "simul",
+        "func": "let RTDB = global.get (\"RTDB\"); \n//якщо структура БД ще не визначена - завершити\nif (!RTDB) {\n    return\n}\n//якщо режим імітації і локальний генератор імпульсів\nif ((RTDB.sim === true) && (msg.topic===\"simpulse\"))  {\n    RTDB.dist.val = RTDB.dist.sval;\n    msg.payload = RTDB;\n    return msg; \n}\n//якщо не режим імітації просто пропускаємо повідомлення далі \nelse if (msg.topic !==\"simpulse\") {\n  return msg;  \n}\n\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 230,
+        "y": 180,
+        "wires": [
+            [
+                "ded08f61.95e83"
+            ]
+        ]
+    },
+    {
+        "id": "f9fcd35d.ea91e8",
+        "type": "debug",
+        "z": "ff6925ad.bbbba",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 610,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e19d9cd9.31f9f8",
+        "type": "inject",
+        "z": "ff6925ad.bbbba",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "8335a99a.b8eb7"
+            ]
+        ]
+    },
+    {
+        "id": "8335a99a.b8eb7",
+        "type": "function",
+        "z": "ff6925ad.bbbba",
+        "name": "init",
+        "func": "let RTDB = global.get (\"RTDB\"); \n//якщо структура БД ще не визначена, створюємо тут\nif (!RTDB.time) {\n    RTDB = {\n        sim : false,//режим імітації\n        time: {     //час \n            val: Date().toLocaleString(),//плинний час\n            buf: [] //буфер для часових відміток\n        }, \n        dist: { //\n            val : 0.0,\n            sval: 0.0, //імітоване значення            \n            buf : []\n        },\n        diod: {\n            val: 0.0,\n            buf: []\n        }\n    }\nglobal.set (\"RTDB\", RTDB);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f4dd8cf.43634",
+        "type": "comment",
+        "z": "ff6925ad.bbbba",
+        "name": "інціалізація",
+        "info": "",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "7b9f7736.895268",
+        "type": "comment",
+        "z": "ff6925ad.bbbba",
+        "name": "імітація входів",
+        "info": "",
+        "x": 240,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7dac235f.882a3c",
+        "type": "comment",
+        "z": "ff6925ad.bbbba",
+        "name": "обробка ",
+        "info": "",
+        "x": 420,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "ded08f61.95e83",
+        "type": "function",
+        "z": "ff6925ad.bbbba",
+        "name": "обробка",
+        "func": "let time = new Date();\nlet RTDB = msg.payload;\nRTDB.diod.val = RTDB.dist.val * 0.5; \nRTDB.time.val = time.toLocaleString();\nbuferpush (RTDB.dist);\nbuferpush (RTDB.diod);\nbuferpush (RTDB.time);\nglobal.set (\"RTDB\", RTDB);\nreturn msg;\n\nfunction buferpush (tag){\n    let val = tag.val;\n    let bufer = tag.buf;\n    //на \"верх\" масиву добавляємо елементи \n    bufer.push (val);\n    //якщо масив заповнився до 60\n    if (bufer.length >60){\n        bufer.shift ();//вилучаємо перший (найстаріший) елемент\n        //зробити кількість елементів =60\n        bufer.length = 60;//\n    }\n}",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 400,
+        "y": 180,
+        "wires": [
+            [
+                "f9fcd35d.ea91e8",
+                "aa3d0163.1c7e78"
+            ]
+        ]
+    },
+    {
+        "id": "aa3d0163.1c7e78",
+        "type": "link out",
+        "z": "ff6925ad.bbbba",
+        "name": "out",
+        "links": [
+            "419feefe.89ea4"
+        ],
+        "x": 590,
+        "y": 240,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "3444fa8c.2ac09e",
+        "type": "comment",
+        "z": "ff6925ad.bbbba",
+        "name": "обробка ",
+        "info": "",
+        "x": 80,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ba421e57.7d419",
+        "type": "ui_slider",
+        "z": "44831066.7d4808",
+        "name": "",
+        "label": "slider",
+        "group": "3573dccb.8137dc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "all",
+        "topic": "",
+        "min": 0,
+        "max": "200",
+        "step": 1,
+        "x": 570,
+        "y": 80,
+        "wires": [
+            [
+                "6857d8d3.55e0b8"
+            ]
+        ]
+    },
+    {
+        "id": "a06aa64f.eb614",
+        "type": "comment",
+        "z": "44831066.7d4808",
+        "name": "імітація",
+        "info": "",
+        "x": 560,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "99da9ec.a84e0e",
+        "type": "ui_gauge",
+        "z": "44831066.7d4808",
+        "name": "",
+        "group": "c2b4ae34.510e28",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "дистанція",
+        "label": "см",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "200",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 370,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "48528dd1.7e9d14",
+        "type": "ui_text",
+        "z": "44831066.7d4808",
+        "group": "c2b4ae34.510e28",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "дистанція",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 370,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "3f6638e3.edfae8",
+        "type": "comment",
+        "z": "44831066.7d4808",
+        "name": "відображення",
+        "info": "",
+        "x": 240,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "16846dd8.2d3c72",
+        "type": "inject",
+        "z": "44831066.7d4808",
+        "name": "",
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 55,
+        "y": 80,
+        "wires": [
+            [
+                "bcd048cd.d0f988",
+                "4a1f4056.558928",
+                "ae1f6d2.e7fc69"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "bcd048cd.d0f988",
+        "type": "change",
+        "z": "44831066.7d4808",
+        "name": "дистанція",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "RTDB.dist.val",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "дистанція",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 80,
+        "wires": [
+            [
+                "99da9ec.a84e0e",
+                "48528dd1.7e9d14",
+                "ba421e57.7d419",
+                "b20b2fe8.543818"
+            ]
+        ]
+    },
+    {
+        "id": "a32ee888.9413b",
+        "type": "ui_gauge",
+        "z": "44831066.7d4808",
+        "name": "",
+        "group": "c2b4ae34.510e28",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "потужність",
+        "label": "см",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 370,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "d0f87474.7b426",
+        "type": "ui_text",
+        "z": "44831066.7d4808",
+        "group": "c2b4ae34.510e28",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "потужність",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 370,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "4a1f4056.558928",
+        "type": "change",
+        "z": "44831066.7d4808",
+        "name": "діод",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "RTDB.diod.val",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "діод",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "a32ee888.9413b",
+                "d0f87474.7b426",
+                "b20b2fe8.543818"
+            ]
+        ]
+    },
+    {
+        "id": "ff7797e1.056e",
+        "type": "ui_switch",
+        "z": "44831066.7d4808",
+        "name": "",
+        "label": "режим іміт",
+        "group": "3573dccb.8137dc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "режим імітації",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 590,
+        "y": 160,
+        "wires": [
+            [
+                "853fad36.59b548"
+            ]
+        ]
+    },
+    {
+        "id": "ce2d41f8.70838",
+        "type": "change",
+        "z": "44831066.7d4808",
+        "name": "dist.sval",
+        "rules": [
+            {
+                "t": "set",
+                "p": "RTDB.dist.sval",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 800,
+        "y": 100,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "853fad36.59b548",
+        "type": "change",
+        "z": "44831066.7d4808",
+        "name": "sim",
+        "rules": [
+            {
+                "t": "set",
+                "p": "RTDB.sim",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ae1f6d2.e7fc69",
+        "type": "change",
+        "z": "44831066.7d4808",
+        "name": "sim",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "RTDB.sim",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 170,
+        "y": 320,
+        "wires": [
+            [
+                "ff7797e1.056e"
+            ]
+        ]
+    },
+    {
+        "id": "6857d8d3.55e0b8",
+        "type": "ui_text_input",
+        "z": "44831066.7d4808",
+        "name": "",
+        "label": "введення",
+        "group": "3573dccb.8137dc",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "",
+        "x": 580,
+        "y": 120,
+        "wires": [
+            [
+                "ce2d41f8.70838"
+            ]
+        ]
+    },
+    {
+        "id": "b20b2fe8.543818",
+        "type": "ui_chart",
+        "z": "44831066.7d4808",
+        "name": "",
+        "group": "a954a5a4.30bac",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "200",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 2,
+        "x": 190,
+        "y": 220,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3fa91cc8.ffefc4",
+        "type": "inject",
+        "z": "584ed2b7.9bb7e4",
+        "name": "init",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "show databases like 'RTDB'",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 80,
+        "wires": [
+            [
+                "76269188.4eebf"
+            ]
+        ]
+    },
+    {
+        "id": "76269188.4eebf",
+        "type": "mysql",
+        "z": "584ed2b7.9bb7e4",
+        "mydb": "44204c1.e3636b4",
+        "name": "",
+        "x": 215,
+        "y": 80,
+        "wires": [
+            [
+                "15a7abed.29b4cc"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "f4a09b3d.464878",
+        "type": "debug",
+        "z": "584ed2b7.9bb7e4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 590,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "15a7abed.29b4cc",
+        "type": "switch",
+        "z": "584ed2b7.9bb7e4",
+        "name": "є БД?",
+        "property": "payload[0][\"Database (RTDB)\"]",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "RTDB",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "rtdb",
+                "vt": "str"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 310,
+        "y": 80,
+        "wires": [
+            [
+                "f4a09b3d.464878"
+            ],
+            [
+                "f4a09b3d.464878"
+            ],
+            [
+                "881feb8c.e7b2b8",
+                "f727e04c.e46838"
+            ]
+        ]
+    },
+    {
+        "id": "881feb8c.e7b2b8",
+        "type": "debug",
+        "z": "584ed2b7.9bb7e4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 590,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "f727e04c.e46838",
+        "type": "change",
+        "z": "584ed2b7.9bb7e4",
+        "name": "ств БД",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "create database RTDB",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 310,
+        "y": 140,
+        "wires": [
+            [
+                "74bacfd1.6c853"
+            ]
+        ]
+    },
+    {
+        "id": "7974cae7.3f6454",
+        "type": "change",
+        "z": "584ed2b7.9bb7e4",
+        "name": "ств таб",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "CREATE TABLE RTDB.his( \tTS TIMESTAMP NOT NULL DEFAULT current_timestamp(), dist FLOAT NULL DEFAULT NULL,     diod FLOAT NULL DEFAULT NULL,       PRIMARY KEY (TS) )",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 320,
+        "y": 200,
+        "wires": [
+            [
+                "eda6630f.e12c68"
+            ]
+        ]
+    },
+    {
+        "id": "74bacfd1.6c853",
+        "type": "mysql",
+        "z": "584ed2b7.9bb7e4",
+        "mydb": "44204c1.e3636b4",
+        "name": "",
+        "x": 415,
+        "y": 140,
+        "wires": [
+            [
+                "7974cae7.3f6454"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "eda6630f.e12c68",
+        "type": "mysql",
+        "z": "584ed2b7.9bb7e4",
+        "mydb": "44204c1.e3636b4",
+        "name": "",
+        "x": 435,
+        "y": 200,
+        "wires": [
+            [
+                "197f8a4.8348ef6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "197f8a4.8348ef6",
+        "type": "debug",
+        "z": "584ed2b7.9bb7e4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 570,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "aca3fa05.cdae6",
+        "type": "inject",
+        "z": "584ed2b7.9bb7e4",
+        "name": "10s",
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 90,
+        "y": 300,
+        "wires": [
+            [
+                "67abf387.aa94b4"
+            ]
+        ]
+    },
+    {
+        "id": "45e646c5.81a498",
+        "type": "comment",
+        "z": "584ed2b7.9bb7e4",
+        "name": "Створення БД",
+        "info": "",
+        "x": 100,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "d7a78277.a2ba78",
+        "type": "comment",
+        "z": "584ed2b7.9bb7e4",
+        "name": "Запис",
+        "info": "",
+        "x": 90,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "67abf387.aa94b4",
+        "type": "function",
+        "z": "584ed2b7.9bb7e4",
+        "name": "ToSql",
+        "func": "let RTDB = global.get (\"RTDB\");\nif (!RTDB) return;\nlet dist = 0.0;\nlet diod = 0.0;\nlet cnt = 0;\nfor (let i = RTDB.time.buf.length-1; i > RTDB.time.buf.length-11; i--){\n    cnt ++;\n    dist += RTDB.dist.buf[i];\n    diod += RTDB.diod.buf[i];\n}\ndist = dist/cnt;\ndiod = diod/cnt;\nmsg.payload = dist;\nmsg.topic = \"insert into RTDB.his(dist, diod) values (\" + dist + \",\" + diod + \")\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 210,
+        "y": 300,
+        "wires": [
+            [
+                "40008451.82e84c",
+                "470c8ea9.bf7f7"
+            ]
+        ]
+    },
+    {
+        "id": "40008451.82e84c",
+        "type": "debug",
+        "z": "584ed2b7.9bb7e4",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 370,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "470c8ea9.bf7f7",
+        "type": "mysql",
+        "z": "584ed2b7.9bb7e4",
+        "mydb": "44204c1.e3636b4",
+        "name": "",
+        "x": 355,
+        "y": 300,
+        "wires": [
+            []
+        ],
+        "l": false
+    },
+    {
+        "id": "5b477998.a4daf8",
+        "type": "inject",
+        "z": "89489b8b.1930a",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [
+                "1c4a8cee.7a07bb"
+            ]
+        ]
+    },
+    {
+        "id": "1c4a8cee.7a07bb",
+        "type": "function",
+        "z": "89489b8b.1930a",
+        "name": "init",
+        "func": "let ALM = global.get (\"ALM\"); \n//якщо структура БД ще не визначена, створюємо тут\nif (!ALM) {\n    ALM = {\n        CFG:{\n            dist: {spmin: 0, spmax:200}\n        },\n        STA:{}\n    };\n    global.set (\"ALM\", ALM);\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 310,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6da0d3a1.4628e4",
+        "type": "comment",
+        "z": "89489b8b.1930a",
+        "name": "інціалізація",
+        "info": "",
+        "x": 110,
+        "y": 20,
+        "wires": []
+    },
+    {
+        "id": "a493c658.904c08",
+        "type": "comment",
+        "z": "89489b8b.1930a",
+        "name": "перевірка",
+        "info": "",
+        "x": 100,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "fe367fd2.84cf5",
+        "type": "inject",
+        "z": "89489b8b.1930a",
+        "name": "",
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 130,
+        "y": 180,
+        "wires": [
+            [
+                "b46d12a1.3e4f2"
+            ]
+        ]
+    },
+    {
+        "id": "b46d12a1.3e4f2",
+        "type": "function",
+        "z": "89489b8b.1930a",
+        "name": "тривоги",
+        "func": "let ALM = global.get (\"ALM\"); \nlet RTDB = global.get (\"RTDB\"); \n//якщо структура БД ще не визначена, створюємо тут\nif (!ALM || !RTDB) return;\nlet dispmin = (RTDB.dist.val < ALM.CFG.dist.spmin); \nif (dispmin) {\n    if (!ALM.STA.dispmin) {\n        ALM.STA.dispmin = \"Тривога: об'єкт надто близько\"\n        msg.payload = ALM.STA.dispmin;\n        msg.topic = \"dispmin\";\n        node.send (msg);\n    }\n}\nelse delete ALM.STA.dispmin; \nglobal.set (\"ALM\", ALM);\n",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 300,
+        "y": 180,
+        "wires": [
+            [
+                "5fcdd3f1.a5456c"
+            ]
+        ]
+    },
+    {
+        "id": "5fcdd3f1.a5456c",
+        "type": "link out",
+        "z": "89489b8b.1930a",
+        "name": "bot",
+        "links": [
+            "c301cc13.764e1"
+        ],
+        "x": 435,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "50ee9f50.957de8",
+        "type": "telegram receiver",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "bot": "92f9414c.b4e87",
+        "saveDataDir": "",
+        "x": 250,
+        "y": 100,
+        "wires": [
+            [
+                "a5617eb2.70b75"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "dc69c84f.01d5c8",
+        "type": "telegram command",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "command": "/start",
+        "bot": "92f9414c.b4e87",
+        "strict": false,
+        "hasresponse": true,
+        "outputs": 2,
+        "x": 220,
+        "y": 200,
+        "wires": [
+            [
+                "e9f45aa1.aedc58"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a5617eb2.70b75",
+        "type": "debug",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 450,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "e9f45aa1.aedc58",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "показати команди",
+        "func": "let chatId = flow.set (\"chatId\", msg.payload.chatId); \nlet txtmsg = \"/start - показати базові команди\\r\\n\";\ntxtmsg += \"/sp - виставлення уставки мінімума\\r\\n\";\ntxtmsg += \"/pv - отримання плинних значень \\r\\n\";\ntxtmsg += \"/pvp - отримання плинних значень кожні 5 сек \\r\\n\";\ntxtmsg += \"/rprt - сформувати звіт\\r\\n\";\nmsg.payload.content = txtmsg;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "41c32edd.8df5e",
+        "type": "telegram sender",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "bot": "92f9414c.b4e87",
+        "outputs": 1,
+        "x": 555,
+        "y": 320,
+        "wires": [
+            [
+                "a2a9a95e.39179"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "47fd1580.d79494",
+        "type": "telegram command",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "command": "/pv",
+        "bot": "92f9414c.b4e87",
+        "strict": false,
+        "hasresponse": true,
+        "outputs": 2,
+        "x": 210,
+        "y": 260,
+        "wires": [
+            [
+                "816fd1fb.749338"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "816fd1fb.749338",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "плинні значення",
+        "func": "let RTDB = global.get (\"RTDB\");\nif (!RTDB) return;\nmsg.payload.content = \"dist = \" + RTDB.dist.val + \" , diod = \" + RTDB.diod.val;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 260,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "6422fd20.bfb1c4",
+        "type": "telegram command",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "command": "/pvp",
+        "bot": "92f9414c.b4e87",
+        "strict": false,
+        "hasresponse": true,
+        "outputs": 2,
+        "x": 210,
+        "y": 320,
+        "wires": [
+            [
+                "8a994d80.13f2"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "8a994d80.13f2",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "пероідичність",
+        "func": "let periodic = flow.get(\"periodic\") || {en:false, chatId: 0};\nperiodic.en = !periodic.en;\nperiodic.chatId = msg.payload.chatId;\nflow.set(\"periodic\", periodic);\nmsg.payload.content = periodic.en ? \"Пероідичне оповіщення включене\" : \"Пероідичне оповіщення відключене\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 380,
+        "y": 320,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "9334023e.378f6",
+        "type": "inject",
+        "z": "b4641e24.5cdcd",
+        "name": "5s",
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 360,
+        "wires": [
+            [
+                "46440426.9867f4"
+            ]
+        ]
+    },
+    {
+        "id": "46440426.9867f4",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "пероідично",
+        "func": "msg.payload = {};\nlet RTDB = global.get (\"RTDB\");\nlet periodic = flow.get(\"periodic\");\nif (!RTDB || !periodic.en) return;\nmsg.payload.chatId = periodic.chatId;\nmsg.payload.type = \"message\";\nmsg.payload.content = \"dist = \" + RTDB.dist.val + \" , diod = \" + RTDB.diod.val;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "a2a9a95e.39179",
+        "type": "debug",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "x": 670,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "46ac3220.a8e384",
+        "type": "telegram command",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "command": "/sp",
+        "bot": "92f9414c.b4e87",
+        "strict": false,
+        "hasresponse": true,
+        "outputs": 2,
+        "x": 190,
+        "y": 420,
+        "wires": [
+            [
+                "7a3c324c.264274"
+            ],
+            [
+                "80e468b.45a4f18"
+            ]
+        ]
+    },
+    {
+        "id": "80e468b.45a4f18",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "уставка тривоги",
+        "func": "let sp = Number(msg.payload.content);\nif (sp>=0.0 && sp<=200.0)\n{\n    let ALM = global.get (\"ALM\");\n    if (ALM) {\n        ALM.CFG.dist.spmin=sp;\n        msg.payload.content = \"Уставка мінімуму\" + ALM.CFG.dist.spmin + \" виставлена\";\n    }\n    else msg.payload.content = \"Не вдалося виставити уставку\"\n}\nelse msg.payload.content = \"Значення уставки поза межами\"\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 460,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "7a3c324c.264274",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "запит на уставку",
+        "func": "msg.payload.content = \"Введіть значення уставки мініммуму для дистанції\";\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "c301cc13.764e1",
+        "type": "link in",
+        "z": "b4641e24.5cdcd",
+        "name": "",
+        "links": [
+            "5fcdd3f1.a5456c"
+        ],
+        "x": 195,
+        "y": 540,
+        "wires": [
+            [
+                "7a4fe42a.ecc264"
+            ]
+        ]
+    },
+    {
+        "id": "7a4fe42a.ecc264",
+        "type": "function",
+        "z": "b4641e24.5cdcd",
+        "name": "тривога",
+        "func": "let chatId = flow.get (\"chatId\"); \nlet alm = msg.payload;\nmsg.payload = {\n    content : msg.payload,\n    chatId : chatId,\n    type : \"message\"\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 320,
+        "y": 540,
+        "wires": [
+            [
+                "41c32edd.8df5e"
+            ]
+        ]
+    },
+    {
+        "id": "228fd88b.98f118",
+        "type": "GSheet",
+        "z": "eb61555a.24bb08",
+        "creds": "948ebe51.e052b",
+        "method": "update",
+        "action": "",
+        "sheet": "11Puu_c7aAc7FHmf6P117oLjKkPg2LAKm5nhaJmysnFA",
+        "cells": "bufer!R1C1:R3C60",
+        "name": "bufer",
+        "x": 510,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "658566fd.2a53a",
+        "type": "inject",
+        "z": "eb61555a.24bb08",
+        "name": "10s",
+        "repeat": "10",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 190,
+        "y": 80,
+        "wires": [
+            [
+                "f7089e44.718068"
+            ]
+        ]
+    },
+    {
+        "id": "f7089e44.718068",
+        "type": "function",
+        "z": "eb61555a.24bb08",
+        "name": "У один масив",
+        "func": "let RTDB = global.get (\"RTDB\"); \nmsg.payload = [RTDB.time.buf,RTDB.dist.buf,RTDB.diod.buf]\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 350,
+        "y": 80,
+        "wires": [
+            [
+                "228fd88b.98f118"
+            ]
+        ]
+    },
+    {
+        "id": "aeb05056.9de27",
+        "type": "inject",
+        "z": "eb61555a.24bb08",
+        "name": "",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            [
+                "b2eccd22.2ae558"
+            ]
+        ]
+    },
+    {
+        "id": "b2eccd22.2ae558",
+        "type": "function",
+        "z": "eb61555a.24bb08",
+        "name": "запит",
+        "func": "let now =  new Date();\nlet strtREP = msg.payload.strtREP || new Date(now.getTime()-1000*60);\nlet stpREP = msg.payload.stpREP || new Date(now.getTime()-1000*60*2);\nlet req = \"select dist,diod from RTDB.his where TS>\" + stpREP.toLocaleString() + \" AND TS<\" + stpREP.toLocaleString();\nmsg.payload = req; \nreturn msg;\n//select TS, dist,diod from RTDB.his \n//where TS>\"2020-05-02 15:50:00\" AND TS<\"2020-05-02 15:51:00\"",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 330,
+        "y": 200,
+        "wires": [
+            [
+                "cf618b6c.294c08"
+            ]
+        ]
+    },
+    {
+        "id": "cf618b6c.294c08",
+        "type": "debug",
+        "z": "eb61555a.24bb08",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 550,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "bd8315e2.57446",
+        "type": "mysql",
+        "z": "eb61555a.24bb08",
+        "mydb": "44204c1.e3636b4",
+        "name": "",
+        "x": 435,
+        "y": 260,
+        "wires": [
+            []
+        ],
+        "l": false
+    }
+]
