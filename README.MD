@@ -43,7 +43,7 @@
 > *  Електронні таблиці [Google Sheets](https://www.google.com/sheets/about/);
 > *  Мова програмування [Java Script](https://uk.wikipedia.org/wiki/JavaScript);
 > *  Програма [Fritzing](https://uk.wikipedia.org/wiki/Fritzing) (для побудови схем);
->  Telegram-bot(для моніторингу результатів вимірювань);
+> *  Telegram-bot(для моніторингу результатів вимірювань);
 >  
 
 ## <center>Розділ№2. Розробка архітектури та необхідної проєктної документації:</center>
